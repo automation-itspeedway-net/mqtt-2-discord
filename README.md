@@ -4,7 +4,7 @@ Daemon to send messages to Discord from MQTT.
 This is particularly useful when integrated into your applications and scripts or NodeRed.
 
 Find this on Blogger:
-https://www.blogger.com/blog/post/edit/3784312233289517968/5077024235134004350
+https://tekkieramblings.blogspot.com/2020/06/discord-gateway-for-mqtt.html
 
 PROJECT STATUS: BETA-RELEASE
 
