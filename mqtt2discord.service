@@ -1,0 +1,16 @@
+[Unit]
+Description=mqtt2discord
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=~/modules/mqtt2discord
+ExecStart=venv/bin/python mqtt-2-discord.py
+Restart=on-abort
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=mqtt2discord
+
+[Install]
+WantedBy=multi-user.target
+
